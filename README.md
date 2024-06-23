@@ -3,15 +3,15 @@
 or
 `git clone git@github.com:ploynapatbunsena/Swensens.git`
 
-### Start Backend 
+### Start Backend in Terminal
 `node .\index.js`
 port http://localhost:4000/
 
-### Start Admin
+### Start Admin in Terminal
 `npm run dev`
 port http://localhost:5173/
 
-### Start Frontend
+### Start Frontend in Terminal
 `npm strat`
 port http://localhost:3000/
 
