@@ -1,7 +1,5 @@
 ### Install Project
 `git clone https://github.com/ploynapatbunsena/Swensens.git`
-or
-`git clone git@github.com:ploynapatbunsena/Swensens.git`
 
 ### Start Backend in Terminal
 `node .\index.js`
