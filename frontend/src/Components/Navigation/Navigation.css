@@ -1,0 +1,35 @@
+.nevigation {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+
+.navigation-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  gap: 50px;
+  padding: 16px 24px;
+}
+
+.navigation-menu a {
+  color: #3b3b3b;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navigation-menu a:hover, a:focus {
+  color: #e21c23;
+}
+
+.navigation-menu hr {
+  border: none;
+  width: 24px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #e21c23;
+  margin: 4px auto;
+}

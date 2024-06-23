@@ -1,0 +1,89 @@
+.ant-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+  background: #f0f2f5;
+}
+
+.box-login .box-body {
+  padding: 40px;
+}
+
+.content-login {
+  padding: 32px 40px;
+}
+
+.content-login h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.content-login p {
+  font-size: 14px;
+}
+
+.box-login .box-header {
+  color: #fff;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #dbdbdb;
+  background-size: cover;
+  background-position: top;
+}
+
+.ant-layout-content {
+  flex: auto;
+  min-height: 0;
+}
+
+.box-login {
+  max-width: 480px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 24px;
+}
+
+.box-header {
+  background-image: url(../../Components/Assets/card-head.png);
+}
+
+.ant-input-outlined {
+  height: 48px;
+  border-radius: 10px;
+}
+
+.ant-input-outlined:hover, .ant-input-outlined:focus {
+  border-color: #d9d9d9;
+}
+
+.ant-input-outlined:focus, .ant-input-outlined:focus-within {
+  border-color: #d9d9d9;
+  box-shadow: none;
+  outline: 0;
+  background-color: #ffffff;
+}
+
+.ant-btn-primary {
+  border-radius: 35px;
+}
+
+.ant-form-item-explain-error {
+  font-family: 'Kanit', sans-serif;
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #fff;
+  background: #f04343;
+  box-shadow: transparent;
+}

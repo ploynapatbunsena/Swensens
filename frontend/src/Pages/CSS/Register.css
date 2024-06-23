@@ -1,0 +1,209 @@
+body, .site-body, .ant-layout, .ant-layout-content, .container, .box-register, .box-header, .content-register, .box-body, .register-form {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
+h2, p, .ant-form-item-label label, .ant-input, .ant-radio-button-wrapper, .ant-btn {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
+.box-register .box-body {
+  padding: 40px;
+}
+
+.ant-checkbox-wrapper {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+  color: #787878;
+  /* margin-bottom: 16px; */
+}
+
+.ant-checkbox-wrapper .ant-checkbox-inner {
+  border-radius: 50%;
+  border-color: #e21c23;
+}
+
+.box-register .ant-checkbox {
+  align-self:first baseline;
+  top: .09em;
+}
+
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #e21c23;
+  border-color: #e21c23;
+}
+
+.ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner, .ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner {
+  border-color: #e21c23;
+  background-color: transparent;
+}
+
+:where(.css-dev-only-do-not-override-zg0ahe).ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+  background-color: #e21c23;
+  border-color: transparent;
+}
+
+.ant-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+  background: #f0f2f5;
+}
+
+.ant-layout-content {
+  flex: auto;
+  min-height: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 24px;
+}
+
+.box-register {
+  max-width: 480px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.box-header {
+  background-image: url(../../Components/Assets/card-head.png);
+}
+
+.content-register {
+  padding: 32px 40px;
+}
+
+.box-register .box-header {
+  color: #fff;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #dbdbdb;
+  background-size: cover;
+  background-position: top;
+}
+
+.box-register .box-header h2 {
+  color: inherit;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.box-register .box-header p {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.box-register .box-body {
+  padding: 40px;
+}
+
+.box-register .gender-radio-group {
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.box-register .gender-radio-group .ant-radio-button-wrapper-in-form-item {
+  line-height: 1.25;
+  height: auto;
+  margin: 0 8px;
+  padding: 12px 32px;
+  border-radius: 30px;
+  border: 1px solid #d2d2d2;
+  outline: none;
+}
+
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  color: #fff;
+  background: #e21c23;
+  border-color: #e21c23;
+}
+
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: #fff;
+  background: #e21c23;
+  border-color: #e21c23;
+}
+
+.ant-radio-button-wrapper {
+  color: #e21c23;
+}
+
+
+.ant-radio-button-wrapper:hover {
+  z-index: 1;
+  color: #e21c23;
+  background: #ffffff;
+  border-color: #e21c23;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+/* @media (min-width: 576px) {
+  .ant-col-sm-offset-8 {
+      margin-inline-start: 0px;
+  }
+} */
+
+/* .box-register .ant-checkbox-inner, .box-register .ant-checkbox:after {
+  border-radius: 50%;
+} */
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+  content: none;
+}
+
+.ant-btn-primary {
+  width: 100%;
+  height: 48px;
+  outline: none;
+  border: none;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background-color: #e21c23;
+  border-color: #e21c23;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, .045);
+}
+
+.box-login .forgot-password {
+  line-height: 1.5;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Kanit", sans-serif;
+}
+
+.ant-form-item .ant-form-item-explain-error {
+  font-size: 1em;
+  margin-top: 4px;
+}
+
+.ant-col .ant-form-item-control {
+  margin-bottom: 16px;
+}
+
+.ant-form-item .ant-form-item-extra {
+  font-family: "Kanit", sans-serif;
+  color: #f5222d;
+}
+
+.ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  content: none;
+}

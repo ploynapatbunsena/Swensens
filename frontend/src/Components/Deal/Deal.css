@@ -1,0 +1,153 @@
+.page-body {
+  padding: 64px 0 80px;
+  background-color: #fff;
+}
+
+.container {
+  padding: 0 24px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.section-header {
+  margin-bottom: 28px;
+}
+
+.section-heading.has-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-heading {
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0 15px;
+  margin: 0;
+  color: rgba(0, 0, 0, .85);
+}
+
+.deal-carousel .slick-prev {
+  left: 22px;
+  background-image: url(../Assets/Icon/slide-prev.svg);
+}
+
+.deal-carousel .slick-next {
+  right: 22px;
+  background-image: url(../Assets/Icon/slide-next.svg);
+}
+
+.deal-carousel .slick-prev:hover, .slick-prev:focus, .slick-prev:visited {
+  background-image: url(../Assets/Icon/slide-prev.svg) !important;
+}
+
+.deal-carousel .slick-next:hover, .slick-next:focus {
+  background-image: url(../Assets/Icon/slide-next.svg) !important;
+}
+
+.deal-carousel .slick-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-position: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.slick-next, .slick-prev {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border: none;
+}
+
+.deal-carousel {
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.slick-slide {
+  outline: none;
+}
+
+.slick-slide img {
+  width: 368px;
+  height: 205px;
+  border-radius: 12px;
+  background-position-x: 50%;
+  background-position-y: center;
+}
+
+.deal-carousel .deal-item .image {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  display: list-item;
+}
+
+.deal-carousel .deal-item {
+  padding: 0 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: block !important;
+  width: 100%;
+}
+
+.slick-prev:before, .slick-next:before {
+  content: none !important;
+}
+
+.deal-carousel .slick-dots {
+  top: 100%;
+  bottom: auto;
+  margin-top: 24px;
+  display: flex !important;
+  justify-content: center;
+}
+
+.deal-carousel .slick-dots li {
+  margin: 0 3px;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.deal-carousel .slick-dots li.slick-active button {
+  background-color: #e21c23;
+}
+
+.deal-carousel .slick-dots li button {
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: rgba(29, 29, 29, .12);
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  padding: 5px;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.section-reward {
+  margin-top: 56px;
+}

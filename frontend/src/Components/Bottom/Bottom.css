@@ -1,0 +1,88 @@
+.page-bottom {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  background-image: url(../Assets/bg-page-bottom.jpeg);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.ant-row-flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.ant-row-flex-middle {
+  align-items: center;
+}
+
+.ant-col {
+  position: relative;
+  min-height: 1px;
+}
+
+.app-screen img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.app-download .heading-download {
+  font-size: 40px;
+  margin: 0 0 24px;
+  font-weight: 500;
+}
+
+.ant-col-12 {
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.ant-col-1, .ant-col-2, .ant-col-3, .ant-col-4, .ant-col-5, .ant-col-6, .ant-col-7, .ant-col-8, .ant-col-9, .ant-col-10, .ant-col-11, .ant-col-12, .ant-col-13, .ant-col-14, .ant-col-15, .ant-col-16, .ant-col-17, .ant-col-18, .ant-col-19, .ant-col-20, .ant-col-21, .ant-col-22, .ant-col-23, .ant-col-24 {
+  flex: 0 0 auto;
+  float: left;
+}
+
+.download-list .download-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .ant-col-md-offset-2 {
+      margin-left: 8.33333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .ant-col-md-10 {
+      display: block;
+      box-sizing: border-box;
+      width: 41.66666667%;
+  }
+}
+
+@media (min-width: 768px) {
+  .ant-col-md-offset-1 {
+      margin-left: 4.16666667%;
+  }
+}
+
+@media (min-width: 768px) {
+  .ant-col-md-9 {
+      display: block;
+      box-sizing: border-box;
+      width: 37.5%;
+  }
+}
