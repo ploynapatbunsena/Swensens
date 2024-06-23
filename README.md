@@ -1,4 +1,4 @@
-![main_after_login](https://github.com/ploynapatbunsena/Swensens/assets/112202790/09e3ca5b-f856-4b6f-aec6-b57583ae9dac)### Start Backend 
+### Start Backend 
 `node .\index.js`
 port http://localhost:4000/
 
