@@ -1,3 +1,8 @@
+### Install Project
+`git clone https://github.com/ploynapatbunsena/Swensens.git`
+or
+`git clone git@github.com:ploynapatbunsena/Swensens.git`
+
 ### Start Backend 
 `node .\index.js`
 port http://localhost:4000/
