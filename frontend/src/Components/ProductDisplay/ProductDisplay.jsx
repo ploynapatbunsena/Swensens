@@ -1,6 +1,7 @@
 import React from 'react'
 import "./ProductDisplay.css"
 import arrow_back from "../Assets/Icon/arrow-back.svg"
+import { Link } from 'react-router-dom';
 
 const ProductDisplay = (props) => {
 
@@ -15,7 +16,7 @@ const ProductDisplay = (props) => {
               <div className="section-header-action">
                 <h2 className="action-heading">
                   <button className="back ant-btn ant-btn-link">
-                    <img src={arrow_back} alt="" />
+                    <Link to="/delivery"><img src={arrow_back} alt="" /></Link>
                   </button>
                   {product.category}
                 </h2>
@@ -27,7 +28,7 @@ const ProductDisplay = (props) => {
                 <div className="center-box-body">
                   <h2 className="title">{product.name}</h2>
                   <div className="detail">
-                    <div className="desciption">
+                    <div className="description">
                       {product.description}
                     </div>
                   </div>

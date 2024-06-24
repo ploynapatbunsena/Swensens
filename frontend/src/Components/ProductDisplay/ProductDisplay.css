@@ -1,25 +1,10 @@
-.page-detail-wrapper {
+/* .page-detail-wrapper {
   background-color: #f4f4f4;
-  
-  /* position: relative; */
-}
-
-
-.page-detail-wrapper:before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 312px;
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  background-color: #f4f4f4;
-}
+} */
 
 .page-detail-wrapper .page-body {
   padding-top: 36px;
   padding-bottom: 54px;
-  /* position: relative; */
   z-index: 2;
 }
 
@@ -34,18 +19,13 @@
 
 .ant-row-flex-center {
   justify-content: center;
+  margin-top: 72px;
 }
-
-/* .ant-row-flex {
-  display: flex;
-  flex-flow: row wrap;
-} */
 
 .ant-col-20 {
   display: block;
   box-sizing: border-box;
   width: 80%;
-  height: 500px;
 }
 
 .section-header-action {
@@ -57,7 +37,6 @@
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -80,6 +59,9 @@
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 0 2px 8px rgba(92, 8, 8, .06);
+  margin-bottom: 24px;
+  z-index: 3;
+  top: -50px;
 }
 
 .center-box .center-box-header {
@@ -87,12 +69,11 @@
   background-color: #dbdbdb;
   background-size: cover;
   background-position: 50%;
-  position: relative;
 }
 
 .center-box .center-box-header img {
-  width: 506.64px;
-  height: 337.76px;
+  width: 100%;
+  height: auto;
 }
 
 .center-box .center-box-body {
@@ -116,8 +97,7 @@
   font-family: "Kanit", sans-serif;
 }
 
-.center-box-body .detail .desciption {
+.center-box-body .detail .description {
   text-align: center;
   margin: 0 auto 24px;
 }
-
